@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Noto+Serif:ital@1&display=swap');
+body {
+    background-color: #495C83;
+}
+header {
+    color: #C4D7E0;
+    font-family: Fondamento;
+    text-align: center;
+}
+img {
+    height: 350px;
+}
+footer {
+    text-align: center;
+    color: #A8A4CE;
+}
+@media only screen and (max-width:700px) {
+    img {
+        height: 300px;
+    }
+    header {
+        font-size: 13px;
+    }
+}
